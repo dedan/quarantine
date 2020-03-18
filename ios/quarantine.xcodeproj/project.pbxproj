@@ -19,6 +19,7 @@
 		2DCD954D1E0B4F2C00145EB5 /* quarantineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* quarantineTests.m */; };
 		45AEF88EEFAEAFCE2402563F /* libPods-quarantine-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E5A03F3D7542FE26915522 /* libPods-quarantine-tvOS.a */; };
 		55CFAA368CE014CE948D5928 /* libPods-quarantine-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E91CC4F56304ADE83B5011A /* libPods-quarantine-tvOSTests.a */; };
+		5F6EDE802422ACC9008A5F0F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F6EDE7F2422ACC9008A5F0F /* GoogleService-Info.plist */; };
 		E384EEDEEB8E5A8B0FE3954E /* libPods-quarantine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D1DD97E65549330B6CC6CEA /* libPods-quarantine.a */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		3CBAA3D1E5350A7CAA2313F6 /* libPods-quarantineTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-quarantineTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4486480EB401136F7C4498FD /* Pods-quarantineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quarantineTests.debug.xcconfig"; path = "Target Support Files/Pods-quarantineTests/Pods-quarantineTests.debug.xcconfig"; sourceTree = "<group>"; };
 		482111F61092DE5EDA61C467 /* Pods-quarantine-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quarantine-tvOS.release.xcconfig"; path = "Target Support Files/Pods-quarantine-tvOS/Pods-quarantine-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		5F6EDE7F2422ACC9008A5F0F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8DE60F77DA306882E8E19CE6 /* Pods-quarantineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quarantineTests.release.xcconfig"; path = "Target Support Files/Pods-quarantineTests/Pods-quarantineTests.release.xcconfig"; sourceTree = "<group>"; };
 		92D7DDB35267370B7F763B07 /* Pods-quarantine-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quarantine-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-quarantine-tvOSTests/Pods-quarantine-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		9E91CC4F56304ADE83B5011A /* libPods-quarantine-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-quarantine-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -161,7 +163,6 @@
 				4486480EB401136F7C4498FD /* Pods-quarantineTests.debug.xcconfig */,
 				8DE60F77DA306882E8E19CE6 /* Pods-quarantineTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -175,6 +176,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				5F6EDE7F2422ACC9008A5F0F /* GoogleService-Info.plist */,
 				13B07FAE1A68108700A75B9A /* quarantine */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* quarantineTests */,
@@ -309,6 +311,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -339,6 +342,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				5F6EDE802422ACC9008A5F0F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
